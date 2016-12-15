@@ -19,7 +19,7 @@ ZSH_THEME="wedisagree"
 export workon_home=$home/.virtualenvs
 source /usr/local/bin/virtualenvwrapper.sh
 
- Uncomment the following line to use case-sensitive completion.
+# Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
@@ -61,9 +61,8 @@ source /usr/local/bin/virtualenvwrapper.sh
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
-# --------------------Vi-Mode----------------------------------------------------------
-plugins=(git vi-mode)
+plugins=(git vi-mode web-search last-working-dir wd colored-man extract zsh-syntax-highlighting powerline-shell)
+
 
 source $ZSH/oh-my-zsh.sh
 
